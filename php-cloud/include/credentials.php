@@ -8,7 +8,7 @@ $url = "https://vcd.company/api";
 
 
 function authorize($username, $password){
-$tenat_name = "test-terfm";
+$tenat_name = "tenatName";
 
 $credentials = base64_encode($username."@".$tenat_name.":".$password);
 
